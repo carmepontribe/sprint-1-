@@ -83,21 +83,27 @@
         flex-direction: column;
     }
     .menu{
-        flex-direction: column;
+        flex-direction: row;
         height: auto;
     }
     .aside {
         display: flex;
         justify-content: center;
+        flex-direction: column;
     }
 }
 @media all and (max-width:600px){
     .articulos{
         flex-direction: column;
     }
-}
- @media all and (max-width:600px){
-        .aside{
-            flex-direction: column;
-        }
+    .aside{
+        flex-direction: column;
     }
+    .menu{
+        flex-direction: column; 
+        align-items: stretch; 
+    }
+
+}
+
+    
